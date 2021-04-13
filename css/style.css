@@ -1,0 +1,48 @@
+header{
+    background-color: gray;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    margin-left: 0px;
+}
+header nav{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+header nav h2 ,header nav img {
+    display: inline-block;
+    align-items: center;
+    margin: 10px;
+    vertical-align: middle;
+    text-align:center;
+    
+    
+}
+header nav h2{
+    padding: 25px;
+    width:220px;
+    height: 90px;
+    box-sizing: border-box ;    
+}
+
+body div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+div p {
+    width: 480px;
+    height: 400px;
+}
+div img{
+    width: 300px;
+    margin: 25px;
+}
+
+body:nth-child(4){
+    margin: 25px;
+
+}
